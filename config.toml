@@ -1,0 +1,74 @@
+baseurl = "http://www.example.com"
+title = "nicox profile"
+theme = "hugo-coder"
+languagecode = "en"
+defaultcontentlanguage = "en"
+
+paginate = 20
+
+pygmentsstyle = "bw"
+pygmentscodefences = true
+pygmentscodefencesguesssyntax = true
+
+disqusShortname = "yourdiscussshortname"
+
+[params]
+  author = "Nicox"
+  info = "Nicox is human"
+  description = "Nicox's personal website"
+  keywords = "blog,developer,personal"
+  avatarurl = "images/avatar.jpg"
+  #gravatar = "john.doe@example.com"
+
+  favicon_32 = "/img/favicon-32x32.png"
+  favicon_16 = "/img/favicon-16x16.png"
+
+  since = 2023
+
+  enableTwemoji = true
+
+  colorScheme = "auto"
+  hidecolorschemetoggle = false
+
+  # customCSS = ["css/custom.css"]
+  # customSCSS = ["scss/custom.scss"]
+  # customJS = ["js/custom.js"]
+
+[taxonomies]
+  category = "categories"
+  series = "series"
+  tag = "tags"
+  author = "authors"
+
+# Social links
+[[params.social]]
+  name = "Github"
+  icon = "fa fa-github fa-2x"
+  weight = 1
+  url = "https://github.com/skytog"
+[[params.social]]
+  name = "instagram"
+  icon = "fa fa-instagram fa-2x"
+  weight = 2
+  url = "https://www.instagram.com/nicox555/"
+[[params.social]]
+  name = "mastodon"
+  icon = "fa fa-mastodon fa-2x"
+  weight = 3
+  url = "https://misskey.io/@nico_ll_fps"
+[[params.social]]
+  name = "Twitter"
+  icon = "fa fa-twitter fa-2x"
+  weight = 4
+  url = "https://twitter.com/nico_ll_fps"
+
+
+# Menu links
+#[[menu.main]]
+#  name = "Blog"
+#  weight = 1
+#  url  = "posts/"
+#[[menu.main]]
+#  name = "About"
+# weight = 2
+#  url = "about/"
