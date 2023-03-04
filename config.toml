@@ -1,8 +1,9 @@
-baseurl = "http://www.example.com"
+baseurl = "https://skytog.github.io/profile/"
 title = "nicox profile"
 theme = "hugo-coder"
 languagecode = "en"
 defaultcontentlanguage = "en"
+publishDir = "docs"
 
 paginate = 20
 
